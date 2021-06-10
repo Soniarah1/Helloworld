@@ -1,8 +1,10 @@
-#include <stdio.h>
-#include <sedlib.h>
+#include "types.h"
+#include "stat.h"
+#include "user.h"
 
 int main()
 {
-     printf(_Format:"Hello world!\n")
-     return 0;
+char str[] = "Hello world";
+printf(1, "%s\n", str);
+exit();
 }
